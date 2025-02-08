@@ -1,0 +1,3 @@
+# Tailwind CSS Classes Not Applying
+
+This repository demonstrates a bug where Tailwind CSS classes fail to apply to HTML elements despite seemingly correct configuration and implementation. The issue is resolved by ensuring the correct build process for Tailwind CSS, which involves running the `npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch` command in the terminal to build the CSS file and apply the classes to the HTML elements.
